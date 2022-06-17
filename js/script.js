@@ -154,6 +154,7 @@ const fails = (el) => {
   hangman();
   if (counter === 6) {
     elh1.textContent = "You lost...🤌🏼🤌🏼👎🏼👎🏼🤦🏻‍♂️🤦🏻‍♀️!!!";
+    selHighScore.textContent = 0;
   }
 };
 
