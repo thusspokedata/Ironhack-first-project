@@ -180,132 +180,236 @@ const hangman = () => {
 
 // ------------ clicked buttom --------
 document.querySelector(".q").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("Q") ? fails(this) : correct(this, "Q");
   }
 });
 document.querySelector(".w").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("W") ? fails(this) : correct(this, "W");
   }
 });
 document.querySelector(".e").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("E") ? fails(this) : correct(this, "E");
   }
 });
 document.querySelector(".r").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("R") ? fails(this) : correct(this, "R");
   }
 });
 document.querySelector(".t").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("T") ? fails(this) : correct(this, "T");
   }
 });
 document.querySelector(".y").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("Y") ? fails(this) : correct(this, "Y");
   }
 });
 document.querySelector(".u").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("U") ? fails(this) : correct(this, "U");
   }
 });
 document.querySelector(".i").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("I") ? fails(this) : correct(this, "I");
   }
 });
 document.querySelector(".o").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("O") ? fails(this) : correct(this, "O");
   }
 });
 document.querySelector(".p").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("P") ? fails(this) : correct(this, "P");
   }
 });
 document.querySelector(".a").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("A") ? fails(this) : correct(this, "A");
   }
 });
 document.querySelector(".s").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("S") ? fails(this) : correct(this, "S");
   }
 });
 document.querySelector(".d").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("D") ? fails(this) : correct(this, "D");
   }
 });
 document.querySelector(".f").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("F") ? fails(this) : correct(this, "F");
   }
 });
 document.querySelector(".g").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("G") ? fails(this) : correct(this, "G");
   }
 });
 document.querySelector(".h").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("H") ? fails(this) : correct(this, "H");
   }
 });
 document.querySelector(".j").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("J") ? fails(this) : correct(this, "J");
   }
 });
 document.querySelector(".k").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("K") ? fails(this) : correct(this, "K");
   }
 });
 document.querySelector(".l").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("L") ? fails(this) : correct(this, "L");
   }
 });
 document.querySelector(".z").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("Z") ? fails(this) : correct(this, "Z");
   }
 });
 document.querySelector(".x").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("X") ? fails(this) : correct(this, "X");
   }
 });
 document.querySelector(".c").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("C") ? fails(this) : correct(this, "C");
   }
 });
 document.querySelector(".v").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("V") ? fails(this) : correct(this, "V");
   }
 });
 document.querySelector(".b").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("B") ? fails(this) : correct(this, "B");
   }
 });
 document.querySelector(".n").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("N") ? fails(this) : correct(this, "N");
   }
 });
 document.querySelector(".m").addEventListener("click", function () {
-  if (secretWord.length > 0 && counter < 6) {
+  if (
+    secretWord.length > 0 &&
+    counter < 6 &&
+    elbody.style.backgroundColor !== "rgb(96, 179, 71)"
+  ) {
     !secretWord.includes("M") ? fails(this) : correct(this, "M");
   }
 });
