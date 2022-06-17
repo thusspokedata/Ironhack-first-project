@@ -53,7 +53,6 @@ const blackText = () => {
   elbody.style.color = "black";
   elbody.style.backgroundColor = "#60b347";
   elh1.textContent = "You won...💃🏻🕺🏼💃🏻🕺🏼!!!";
-  // selHighScore.textContent = 0;
 };
 
 const blueLightText = () => {
@@ -113,10 +112,11 @@ document
     if (secretWord.length > 0) {
       hintClue.textContent = clue;
       document.querySelector(".score span").textContent = 1;
+      wrongGuesses.textContent = 5;
     }
   });
 
-// ---------------- reset ------------------------
+// ---------------- function if reset or new game is pressed ------------------------
 
 function reload() {
   delButtons();
@@ -128,7 +128,7 @@ function reload() {
   displayNone();
   newWordAndHint();
 }
-
+// ---------------- reset ------------------------
 document.querySelector("#reset").addEventListener("click", function () {
   reload();
   selHighScore.textContent = 0;
@@ -179,80 +179,132 @@ const hangman = () => {
 
 // ------------ clicked buttom --------
 document.querySelector(".q").addEventListener("click", function () {
-  !secretWord.includes("Q") ? fails(this) : correct(this, "Q");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("Q") ? fails(this) : correct(this, "Q");
+  }
 });
 document.querySelector(".w").addEventListener("click", function () {
-  !secretWord.includes("W") ? fails(this) : correct(this, "W");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("W") ? fails(this) : correct(this, "W");
+  }
 });
 document.querySelector(".e").addEventListener("click", function () {
-  !secretWord.includes("E") ? fails(this) : correct(this, "E");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("E") ? fails(this) : correct(this, "E");
+  }
 });
 document.querySelector(".r").addEventListener("click", function () {
-  !secretWord.includes("R") ? fails(this) : correct(this, "R");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("R") ? fails(this) : correct(this, "R");
+  }
 });
 document.querySelector(".t").addEventListener("click", function () {
-  !secretWord.includes("T") ? fails(this) : correct(this, "T");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("T") ? fails(this) : correct(this, "T");
+  }
 });
 document.querySelector(".y").addEventListener("click", function () {
-  !secretWord.includes("Y") ? fails(this) : correct(this, "Y");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("Y") ? fails(this) : correct(this, "Y");
+  }
 });
 document.querySelector(".u").addEventListener("click", function () {
-  !secretWord.includes("U") ? fails(this) : correct(this, "U");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("U") ? fails(this) : correct(this, "U");
+  }
 });
 document.querySelector(".i").addEventListener("click", function () {
-  !secretWord.includes("I") ? fails(this) : correct(this, "I");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("I") ? fails(this) : correct(this, "I");
+  }
 });
 document.querySelector(".o").addEventListener("click", function () {
-  !secretWord.includes("O") ? fails(this) : correct(this, "O");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("O") ? fails(this) : correct(this, "O");
+  }
 });
 document.querySelector(".p").addEventListener("click", function () {
-  !secretWord.includes("P") ? fails(this) : correct(this, "P");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("P") ? fails(this) : correct(this, "P");
+  }
 });
 document.querySelector(".a").addEventListener("click", function () {
-  !secretWord.includes("A") ? fails(this) : correct(this, "A");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("A") ? fails(this) : correct(this, "A");
+  }
 });
 document.querySelector(".s").addEventListener("click", function () {
-  !secretWord.includes("S") ? fails(this) : correct(this, "S");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("S") ? fails(this) : correct(this, "S");
+  }
 });
 document.querySelector(".d").addEventListener("click", function () {
-  !secretWord.includes("D") ? fails(this) : correct(this, "D");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("D") ? fails(this) : correct(this, "D");
+  }
 });
 document.querySelector(".f").addEventListener("click", function () {
-  !secretWord.includes("F") ? fails(this) : correct(this, "F");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("F") ? fails(this) : correct(this, "F");
+  }
 });
 document.querySelector(".g").addEventListener("click", function () {
-  !secretWord.includes("G") ? fails(this) : correct(this, "G");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("G") ? fails(this) : correct(this, "G");
+  }
 });
 document.querySelector(".h").addEventListener("click", function () {
-  !secretWord.includes("H") ? fails(this) : correct(this, "H");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("H") ? fails(this) : correct(this, "H");
+  }
 });
 document.querySelector(".j").addEventListener("click", function () {
-  !secretWord.includes("J") ? fails(this) : correct(this, "J");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("J") ? fails(this) : correct(this, "J");
+  }
 });
 document.querySelector(".k").addEventListener("click", function () {
-  !secretWord.includes("K") ? fails(this) : correct(this, "K");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("K") ? fails(this) : correct(this, "K");
+  }
 });
 document.querySelector(".l").addEventListener("click", function () {
-  !secretWord.includes("L") ? fails(this) : correct(this, "L");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("L") ? fails(this) : correct(this, "L");
+  }
 });
 document.querySelector(".z").addEventListener("click", function () {
-  !secretWord.includes("Z") ? fails(this) : correct(this, "Z");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("Z") ? fails(this) : correct(this, "Z");
+  }
 });
 document.querySelector(".x").addEventListener("click", function () {
-  !secretWord.includes("X") ? fails(this) : correct(this, "X");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("X") ? fails(this) : correct(this, "X");
+  }
 });
 document.querySelector(".c").addEventListener("click", function () {
-  !secretWord.includes("C") ? fails(this) : correct(this, "C");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("C") ? fails(this) : correct(this, "C");
+  }
 });
 document.querySelector(".v").addEventListener("click", function () {
-  !secretWord.includes("V") ? fails(this) : correct(this, "V");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("V") ? fails(this) : correct(this, "V");
+  }
 });
 document.querySelector(".b").addEventListener("click", function () {
-  !secretWord.includes("B") ? fails(this) : correct(this, "B");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("B") ? fails(this) : correct(this, "B");
+  }
 });
 document.querySelector(".n").addEventListener("click", function () {
-  !secretWord.includes("N") ? fails(this) : correct(this, "N");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("N") ? fails(this) : correct(this, "N");
+  }
 });
 document.querySelector(".m").addEventListener("click", function () {
-  !secretWord.includes("M") ? fails(this) : correct(this, "M");
+  if (secretWord.length > 0 && counter < 6) {
+    !secretWord.includes("M") ? fails(this) : correct(this, "M");
+  }
 });
