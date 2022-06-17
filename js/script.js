@@ -53,7 +53,7 @@ const blackText = () => {
   elbody.style.color = "black";
   elbody.style.backgroundColor = "#60b347";
   elh1.textContent = "You won...💃🏻🕺🏼💃🏻🕺🏼!!!";
-  selHighScore.textContent = 0;
+  // selHighScore.textContent = 0;
 };
 
 const blueLightText = () => {
@@ -164,7 +164,6 @@ const correct = (el, letter) => {
 
 // ------------------ Display hang-man parts -----------------
 const hangman = () => {
-  console.log("new line");
   figureParts.forEach((part, index) => {
     const errors = counter;
     if (counter === 6) {
