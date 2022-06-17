@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 120%; 
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #32afb2;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+h1,
+h2,
+h5,
+h4,
+p {
+  font-weight: bold;
+}
+
+header {
+  height: 100px;
+}
+
+.principal-title {
+  display: grid;
+  justify-content: center;
+  padding-top: 25px;
+  /* margin-bottom:  5px; */
+}
+
+.main-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.reset {
+  margin-right: 25px;
+}
+
+#select-numbers {
+  /* margin-top: 10px; */
+  padding: 2px;
+  width: 50px;
+}
+
+.h2-title {
+  margin-top: 15px;
+}
+
+
+
+
+.flex-keyboard {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+/* hangman */
+
+.figure-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+.figure-part {
+  display: none;
+}
+
+#hint {
+  font-size: 20px;
+}
+
+/* .you-won {
+  display: none;
+  padding: 80px;
+  margin: 200px;
+} */
+
